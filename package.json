@@ -1,0 +1,14 @@
+{
+	"name": "stylesheets-j3",
+	"version": "1.0.0",
+	"main": "not-needed",
+	"repository": "https://github.com/0J3/Stylesheets",
+	"author": "0J3 <git@wafflepowered.com>",
+	"license": "LGPL-3.0-or-later",
+	"scripts": {
+		"watch-sass": "sass -c --watch scss/index.scss:css/index.css --style compressed"
+	},
+	"devDependencies": {
+		"sass": "^1.30.0"
+	}
+}

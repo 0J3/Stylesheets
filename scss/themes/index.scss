@@ -1,0 +1,18 @@
+@use 'sass:map';
+
+@use 'conf' as theme;
+
+[j3-features*='themes'],
+[j3-features*='themes'] {
+	// Dark Theme
+	[theme='dark'],
+	&[theme='dark'] {
+		$thememap: theme.$dark;
+		&,
+		html,
+		body {
+			background-color: map.get($thememap, 'bgColour');
+			color: map.get($thememap, 'primaryColour');
+		}
+	}
+}

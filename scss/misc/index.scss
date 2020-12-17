@@ -1,0 +1,14 @@
+[j3-features*='fixes'] {
+	&[fixes*='size'],
+	[fixes*='size'] {
+		&,
+		html,
+		body {
+			width: 100vw;
+			height: 100vh;
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+	}
+}
